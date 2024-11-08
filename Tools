@@ -1,4 +1,116 @@
---SalmonHub Made by Salmon#3917
+local gui = Instance.new("ScreenGui")
+gui.Name = "patrickGui"
+gui.Parent = game.CoreGui
+
+--///patrick gui maker///--
+
+
+-- put your mainframe into the screengui that I have made (frame.Parent = gui) 
+
+-- put your mainframe into the screengui that I have made (frame.Parent = gui) 
+
+local hack = Instance.new("Frame")
+hack.Size = UDim2.new(0.5, 0, 0.5, 0)
+hack.Position = UDim2.new(0.5, 0, 0.5, 0)
+hack.BackgroundColor3 = Color3.new(1, 1, 1)
+hack.BorderColor3 = Color3.new(0, 0, 0)
+hack.BorderSizePixel = 1
+hack.Active = true
+hack.BackgroundTransparency = 0 
+hack.Draggable = true
+hack.Parent = gui
+
+
+local TextLabel = Instance.new("TextLabel")
+TextLabel.Size = UDim2.new(0.3, 0, 0.2, 0)
+TextLabel.Position = UDim2.new(0.4, 0, 0.2, 0)
+TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 1
+TextLabel.Text = "Hack TomasGamer2k"
+TextLabel.BackgroundTransparency = 0 
+TextLabel.TextColor3 = Color3.new(255, 255, 255)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Parent = hack
+
+
+local TextButton = Instance.new("TextButton")
+TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
+TextButton.Position = UDim2.new(0.4, 0, 0.7, 0)
+TextButton.BackgroundColor3 = Color3.new(2, 0, 0)
+TextButton.BorderColor3 = Color3.new(25, 195,59)
+TextButton.BorderSizePixel = 1
+TextButton.Text = "Click to hack!"
+TextButton.BackgroundTransparency = 0 
+TextButton.TextColor3 = Color3.new(25, 195,598)
+TextButton.Font = Enum.Font.Code
+TextButton.Parent = hack
+
+TextButton.MouseButton1Click:Connect(function()
+local gui = Instance.new("ScreenGui")
+gui.Name = "patrickGui"
+gui.Parent = game.CoreGui
+
+--///patrick gui maker///--
+
+
+-- put your mainframe into the screengui that I have made (frame.Parent = gui) 
+
+local Hack = Instance.new("Frame")
+Hack.Size = UDim2.new(0.5, 0, 0.5, 0)
+Hack.Position = UDim2.new(0.5, 0, 0.5, 0)
+Hack.BackgroundColor3 = Color3.new(1, 1, 1)
+Hack.BorderColor3 = Color3.new(0, 0, 0)
+Hack.BorderSizePixel = 1
+Hack.Active = true
+Hack.BackgroundTransparency = 0 
+Hack.Draggable = true
+Hack.Parent = gui
+
+
+
+local TextLabel = Instance.new("TextLabel")
+TextLabel.Size = UDim2.new(0.3, 0, 0.3, 0)
+TextLabel.Position = UDim2.new(0.4, 0, 0.2, 0)
+TextLabel.BackgroundColor3 = Color3.new(0, 0 , 0)
+TextLabel.BorderColor3 = Color3.new(772, 096, 128)
+TextLabel.BorderSizePixel = 1
+TextLabel.Text = "Make sure u leaving ur account"
+TextLabel.BackgroundTransparency = 0 
+TextLabel.TextColor3 = Color3.new(772, 196, 128)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Parent = Hack
+
+
+local Text = Instance.new("TextButton")
+Text.Size = UDim2.new(0.3, 0, 0.2, 0)
+Text.Position = UDim2.new(0.1, 0, 0.7, 0)
+Text.BackgroundColor3 = Color3.new(0, 0, 0)
+Text.BorderColor3 = Color3.new(0, 0, 0)
+Text.BorderSizePixel = 1
+Text.Text = "Yes"
+Text.BackgroundTransparency = 0 
+Text.TextColor3 = Color3.new(356, 279,021)
+Text.Font = Enum.Font.Code
+Text.Parent = Hack
+
+
+local Text = Instance.new("TextButton")
+Text.Size = UDim2.new(0.3, 0, 0.2, 0)
+Text.Position = UDim2.new(0.6, 0, 0.7, 0)
+Text.BackgroundColor3 = Color3.new(0, 0, 0)
+Text.BorderColor3 = Color3.new(0, 0, 0)
+Text.BorderSizePixel = 1
+Text.Text = "No"
+Text.BackgroundTransparency = 0 
+Text.TextColor3 = Color3.new(255, 255, 255)
+Text.Font = Enum.Font.Code
+Text.Parent = Hack
+
+
+
+end)
+
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
@@ -5417,117 +5529,4 @@ end)
 Section:NewButton("Infinite yield", "", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
-end)
-
-local gui = Instance.new("ScreenGui")
-gui.Name = "patrickGui"
-gui.Parent = game.CoreGui
-
---///patrick gui maker///--
-
-
--- put your mainframe into the screengui that I have made (frame.Parent = gui) 
-
--- put your mainframe into the screengui that I have made (frame.Parent = gui) 
-
-local hack = Instance.new("Frame")
-hack.Size = UDim2.new(0.5, 0, 0.5, 0)
-hack.Position = UDim2.new(0.5, 0, 0.5, 0)
-hack.BackgroundColor3 = Color3.new(1, 1, 1)
-hack.BorderColor3 = Color3.new(0, 0, 0)
-hack.BorderSizePixel = 1
-hack.Active = true
-hack.BackgroundTransparency = 0 
-hack.Draggable = true
-hack.Parent = gui
-
-
-local TextLabel = Instance.new("TextLabel")
-TextLabel.Size = UDim2.new(0.3, 0, 0.2, 0)
-TextLabel.Position = UDim2.new(0.4, 0, 0.2, 0)
-TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
-TextLabel.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel.BorderSizePixel = 1
-TextLabel.Text = "Hack TomasGamer2k"
-TextLabel.BackgroundTransparency = 0 
-TextLabel.TextColor3 = Color3.new(255, 255, 255)
-TextLabel.Font = Enum.Font.Code
-TextLabel.Parent = hack
-
-
-local TextButton = Instance.new("TextButton")
-TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
-TextButton.Position = UDim2.new(0.4, 0, 0.7, 0)
-TextButton.BackgroundColor3 = Color3.new(2, 0, 0)
-TextButton.BorderColor3 = Color3.new(25, 195,59)
-TextButton.BorderSizePixel = 1
-TextButton.Text = "Click to hack!"
-TextButton.BackgroundTransparency = 0 
-TextButton.TextColor3 = Color3.new(25, 195,598)
-TextButton.Font = Enum.Font.Code
-TextButton.Parent = hack
-
-TextButton.MouseButton1Click:Connect(function()
-local gui = Instance.new("ScreenGui")
-gui.Name = "patrickGui"
-gui.Parent = game.CoreGui
-
---///patrick gui maker///--
-
-
--- put your mainframe into the screengui that I have made (frame.Parent = gui) 
-
-local Hack = Instance.new("Frame")
-Hack.Size = UDim2.new(0.5, 0, 0.5, 0)
-Hack.Position = UDim2.new(0.5, 0, 0.5, 0)
-Hack.BackgroundColor3 = Color3.new(1, 1, 1)
-Hack.BorderColor3 = Color3.new(0, 0, 0)
-Hack.BorderSizePixel = 1
-Hack.Active = true
-Hack.BackgroundTransparency = 0 
-Hack.Draggable = true
-Hack.Parent = gui
-
-
-
-local TextLabel = Instance.new("TextLabel")
-TextLabel.Size = UDim2.new(0.3, 0, 0.3, 0)
-TextLabel.Position = UDim2.new(0.4, 0, 0.2, 0)
-TextLabel.BackgroundColor3 = Color3.new(0, 0 , 0)
-TextLabel.BorderColor3 = Color3.new(772, 096, 128)
-TextLabel.BorderSizePixel = 1
-TextLabel.Text = "Make sure u leaving ur account"
-TextLabel.BackgroundTransparency = 0 
-TextLabel.TextColor3 = Color3.new(772, 196, 128)
-TextLabel.Font = Enum.Font.Code
-TextLabel.Parent = Hack
-
-
-local Text = Instance.new("TextButton")
-Text.Size = UDim2.new(0.3, 0, 0.2, 0)
-Text.Position = UDim2.new(0.1, 0, 0.7, 0)
-Text.BackgroundColor3 = Color3.new(0, 0, 0)
-Text.BorderColor3 = Color3.new(0, 0, 0)
-Text.BorderSizePixel = 1
-Text.Text = "Yes"
-Text.BackgroundTransparency = 0 
-Text.TextColor3 = Color3.new(356, 279,021)
-Text.Font = Enum.Font.Code
-Text.Parent = Hack
-
-
-local Text = Instance.new("TextButton")
-Text.Size = UDim2.new(0.3, 0, 0.2, 0)
-Text.Position = UDim2.new(0.6, 0, 0.7, 0)
-Text.BackgroundColor3 = Color3.new(0, 0, 0)
-Text.BorderColor3 = Color3.new(0, 0, 0)
-Text.BorderSizePixel = 1
-Text.Text = "No"
-Text.BackgroundTransparency = 0 
-Text.TextColor3 = Color3.new(255, 255, 255)
-Text.Font = Enum.Font.Code
-Text.Parent = Hack
-
-
-
 end)
